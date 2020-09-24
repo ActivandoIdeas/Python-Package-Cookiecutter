@@ -1,0 +1,35 @@
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+project_urls = {
+    "Homepage": "https://github.com/eocode/First-Python-Package",
+    "Issue tracker": "https://github.com/eocode/First-Python-Package/issues",
+    "Code": "https://github.com/eocode/First-Python-Package",
+    "Documentation": "https://github.com/eocode/First-Python-Package/wiki",
+}
+
+setuptools.setup(
+    name={{cookiecutter.project_name}},
+    version={{cookiecutter.version}},
+    author={{cookiecutter.github_username}},
+    author_email={{cookiecutter.email}},
+    license={{cookiecutter.open_source_license}},
+    description={{cookiecutter.project_short_description}},
+    long_description_content_type={{cookiecutter.description}},
+    long_description=open("README.md").read()
+    + "\n\n"
+    + open("CHANGELOG.md").read()
+    + +open("AUTHORS.md").read(),
+    packages=setuptools.find_packages(exclude=("tests",)),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: {{cookiecutter.open_source_license}}",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.7",
+    ],
+    project_urls=project_urls,
+    install_requires=[],
+    python_requires=">=3.6",
+)

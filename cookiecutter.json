@@ -1,0 +1,21 @@
+{
+    "full_name": "your_name",
+    "email": "username@your_mail.com",
+    "author_name": "{{cookiecutter.full_name}} | @{{cookiecutter.github_username}}",
+    "github_username": "username",
+
+    "project_name": "Cookiecutter-Flask-Travis-Docker",
+    "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+    "project_short_description": "Flask best practices template",
+    "description": "{{cookiecutter.project_short_description}}",
+
+    "version": "0.1.0",
+    "open_source_license": [
+      "MIT license",
+      "BSD license",
+      "ISC license",
+      "Apache Software License 2.0",
+      "GNU General Public License v3",
+      "Not open source"
+    ],
+}
