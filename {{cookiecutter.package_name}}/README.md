@@ -15,26 +15,15 @@
 
 Your demo project
 
-## How to clone
+## How to Install
 
-You can clone this repository
+With pip
 
-    git clone https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
-
-## Dependencies
-
-* None
+    pip install {{ cookiecutter.project_slug }}
 
 ## Basic Usage
-To install this project just type
 
-Create virtual enviroment:
-
-    $ python main.py
-
-## Preview
-
-Your image project previews
+> Your docs
 
 ## How to contribute
 

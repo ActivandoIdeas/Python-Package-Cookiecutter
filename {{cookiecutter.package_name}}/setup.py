@@ -4,10 +4,10 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 project_urls = {
-    "Homepage": "https://github.com/eocode/First-Python-Package",
-    "Issue tracker": "https://github.com/eocode/First-Python-Package/issues",
-    "Code": "https://github.com/eocode/First-Python-Package",
-    "Documentation": "https://github.com/eocode/First-Python-Package/wiki",
+    "Homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+    "Issue tracker": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues",
+    "Code": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+    "Documentation": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/wiki",
 }
 
 setuptools.setup(
