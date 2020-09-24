@@ -1,8 +1,8 @@
 {
     "full_name": "your_name",
     "email": "username@your_mail.com",
-    "author_name": "{{cookiecutter.full_name}} | @{{cookiecutter.github_username}}",
     "github_username": "username",
+    "author_name": "{{cookiecutter.full_name}} | @{{cookiecutter.github_username}}",
 
     "project_name": "Cookiecutter-Flask-Travis-Docker",
     "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
