@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 project_urls = {
-    "Homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
-    "Issue tracker": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues",
-    "Code": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
-    "Documentation": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/wiki",
+    "Homepage": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_pypi }}",
+    "Issue tracker": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_pypi }}/issues",
+    "Code": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_pypi }}",
+    "Documentation": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_pypi }}/wiki",
 }
 
 setuptools.setup(
-    name='{{cookiecutter.project_name}}',
+    name='{{cookiecutter.project_pypi}}',
     version='{{cookiecutter.version}}',
     author='{{cookiecutter.github_username}}',
     author_email='{{cookiecutter.email}}',
