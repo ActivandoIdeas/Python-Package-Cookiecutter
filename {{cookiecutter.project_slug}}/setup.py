@@ -11,13 +11,13 @@ project_urls = {
 }
 
 setuptools.setup(
-    name={{cookiecutter.project_name}},
-    version={{cookiecutter.version}},
-    author={{cookiecutter.github_username}},
-    author_email={{cookiecutter.email}},
-    license={{cookiecutter.open_source_license}},
-    description={{cookiecutter.project_short_description}},
-    long_description_content_type={{cookiecutter.description}},
+    name='{{cookiecutter.project_name}}',
+    version='{{cookiecutter.version}}',
+    author='{{cookiecutter.github_username}}',
+    author_email='{{cookiecutter.email}}',
+    license='{{cookiecutter.open_source_license}}',
+    description='{{cookiecutter.project_short_description}}',
+    long_description_content_type='{{cookiecutter.description}}',
     long_description=open("README.md").read()
     + "\n\n"
     + open("CHANGELOG.md").read()
