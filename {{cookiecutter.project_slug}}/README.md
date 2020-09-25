@@ -19,7 +19,7 @@ Your demo project
 
 With pip
 
-    pip install {{ cookiecutter.project_slug }}
+    pip install {{ cookiecutter.project_pypi }}
 
 ## Basic Usage
 
