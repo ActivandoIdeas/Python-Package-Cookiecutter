@@ -20,12 +20,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     long_description=open("README.md").read()
     + "\n\n"
-    + open("CHANGELOG.md").read()
-    + open("AUTHORS.md").read(),
+    + open("CHANGELOG.md").read(),
     packages=setuptools.find_packages(exclude=("tests",)),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     project_urls=project_urls,

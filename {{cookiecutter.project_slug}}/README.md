@@ -31,11 +31,3 @@ With pip
 pip install pytest
 pytest
 ```
-
-## How to contribute
-
-* Review our code of conduct
-
-# License
-
-View in https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/blob/master/LICENSE
