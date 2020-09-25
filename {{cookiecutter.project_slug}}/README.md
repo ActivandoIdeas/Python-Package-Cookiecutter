@@ -25,6 +25,13 @@ With pip
 
 > Your docs
 
+## Test this project
+
+```sh
+pip install pytest
+pytest
+```
+
 ## How to contribute
 
 * Review our code of conduct
