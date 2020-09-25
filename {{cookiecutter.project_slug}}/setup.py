@@ -17,17 +17,16 @@ setuptools.setup(
     author_email='{{cookiecutter.email}}',
     license='{{cookiecutter.open_source_license}}',
     description='{{cookiecutter.project_short_description}}',
-    long_description_content_type='{{cookiecutter.description}}',
+    long_description_content_type="text/markdown",
     long_description=open("README.md").read()
     + "\n\n"
     + open("CHANGELOG.md").read()
-    + +open("AUTHORS.md").read(),
+    + open("AUTHORS.md").read(),
     packages=setuptools.find_packages(exclude=("tests",)),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: {{cookiecutter.open_source_license}}",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
-        "Programming Language :: Python :: 3.7",
     ],
     project_urls=project_urls,
     install_requires=[],
